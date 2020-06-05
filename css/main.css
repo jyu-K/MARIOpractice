@@ -1,0 +1,113 @@
+ 
+
+.pc_area {
+        display:none;
+    }
+.phone_area {
+        display:none;
+    }
+
+/*-- PC版表示CSS  --*/
+@media screen and (min-width: 813px)　{
+    .pc_area {
+        
+        display:block;
+    }
+    .phone_area {
+        display:none;
+    }
+    .p {
+        display:none;
+    }
+    
+    #can {
+        margin: 0 auto; 
+    }
+}
+
+/*-- スマホ版表示CSS   --*/
+@media screen and (max-width: 812px) {
+    .pc_area {
+        display:none;
+    }
+    .phone_area {
+        width: 100% ;
+        display:block;
+        
+        width:70px;
+        height: 70px;
+        color: #fff;
+        background: #999;
+        border-radius: 45px;
+        text-align: center;
+    }
+    
+    #can {
+        width: 100%;
+        margin: 10px auto 10px auto; 
+    }
+    
+    body {
+        -webkit-touch-callout: none;
+        -webkit-user-select:none;
+    }
+    
+    .box {
+        position:relative;
+        background: #A11;
+        width:100%;
+        height: 180px;
+        user-select:none;
+        
+        margin: 0 auto; 
+    }
+    
+    
+    
+    #LEFT_BTN {
+        display     : inline-block;
+        line-height : 70px; 
+        position    : absolute;
+        left        : 10px;
+        top         : 40px;
+    }
+
+    #TOP_BTN {
+        display     : inline-block;
+        line-height : 70px; 
+        position    : absolute;
+        left        : 60px;
+        top         : -10px;
+    }
+    #RIGHT_BTN {
+        display     : inline-block;
+        line-height : 70px; 
+        position    : absolute;
+        left        : 110px;
+        top         : 40px;
+    }
+
+    #BOTTOM_BTN {
+        display     : inline-block;
+        line-height : 70px; 
+        position    : absolute;
+        left        : 60px;
+        top         : 90px;
+    }
+
+    #A_BTN {
+        display     : inline-block;
+        line-height : 70px;   
+        position    : absolute;
+        right       : 0px;
+        top         : 30px;
+    }
+
+    #B_BTN {
+        display     : inline-block;
+        line-height : 70px;   
+        position    : absolute;
+        right       : 70px;
+        top         : 45px;
+    }
+}
