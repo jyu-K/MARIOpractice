@@ -1,7 +1,7 @@
 //
 //マップクラス
 //
-let stage = 3;
+let stage = 1;
 let fieldData = [
     [],//0は欠番
     /*[　//1
